@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Counter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tenor+Sans&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Poppins", sans-serif;
+        }
+
+        @media only screen and (max-width: 992px) {
+            .number {
+                width: 100% !important;
+            }
+
+            .container {
+                height: 100% !important;
+                padding: 20px;
+            }   
+
+            .main-heading h1 {
+                font-size: 35px !important;
+            }
+
+            .sub-title {
+                width: 100% !important;
+            }
+
+            .countdown-inner {
+                flex-wrap: wrap;
+            }
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            height: 90vh;
+            align-items: center;
+        }
+
+        .main-heading,
+        .sub-title,
+        .sub-heading {
+            text-align: center;
+        }
+
+        .main-heading h1 {
+            font-size: 42px;
+        }
+
+        .sub-heading h2 {
+            font-size: 38px;
+        }
+
+        .countdown {
+            display: flex;
+            justify-content: center !important;
+        }
+
+        .countdown-inner {
+            display: flex;
+            width: 100%;
+            flex-direction: row;
+            gap: 30px;
+            justify-content: center;
+
+        }
+
+        .sub-title {
+            display: flex;
+            justify-content: center;
+            width: 45%;
+            font-size: 22px;
+            line-height: 32px;
+            margin: auto;
+        }
+
+
+
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="main">
+            <div class="main-heading">
+                <h1>Final Flash Sale Is LIVE NOW: <br> 35% Off +92Disrupt Tickets</h1>
+            </div>
+            <div class="sub-title">
+                <p>We're excited to announce the <strong>FINAL limited-time flash sale</strong> for <strong>+92Disrupt
+                        tickets</strong>, offering 35% off on all passes! Whether you're a <strong>startup
+                        founder</strong>,
+                    <strong>investor</strong>, or a <strong>professional</strong>, this is your chance to be part of
+                    Pakistan's most anticipated startup conference.
+                </p>
+            </div>
+            <div class="sub-heading">
+                <h2>FLASH SALE ENDS...</h2>
+            </div>
+            <div class="countdown" style="justify-content: center !important;">
+                <div class="countdown-inner">
+                        <table align="center">
+                        <tbody>
+                            <tr>
+                                <td><img src="https://gen.sendtric.com/countdown/jgp23408xv" style="display: block;max-width:100%" /></td>
+                            </tr>
+                        </tbody>
+                        </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
